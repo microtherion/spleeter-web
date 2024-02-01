@@ -1894,3 +1894,15 @@
 .group.player-singer {
   color: rgb(110, 110, 110) !important;
 }
+
+body {
+    background-color: #f5f3e5 !important;
+}
+
+nav.bg-light {
+    background-color: #a0dd4480 !important;
+}
+
+nav .btn-success {
+    background-color: #459e00 !important;
+}

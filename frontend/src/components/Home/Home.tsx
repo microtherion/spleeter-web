@@ -6,6 +6,7 @@ import { DynamicMix } from '../../models/DynamicMix';
 import { SongData } from '../../models/SongData';
 import { StaticMix } from '../../models/StaticMix';
 import HomeNavBar from '../Nav/HomeNavBar';
+import HomeColophon from './HomeColophon';
 import DeleteDynamicMixModal from '../SongTable/Modal/DeleteDynamicMixModal';
 import DeleteStaticMixModal from '../SongTable/Modal/DeleteStaticMixModal';
 import DeleteTrackModal from '../SongTable/Modal/DeleteTrackModal';
@@ -444,6 +445,7 @@ class Home extends React.Component<RouteComponentProps, State> {
           refresh={this.loadData}
           song={currentModalSrcSong}
         />
+	<HomeColophon/>
       </div>
     );
   }
