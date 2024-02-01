@@ -1895,7 +1895,7 @@
   color: rgb(110, 110, 110) !important;
 }
 
-body {
+body, .modal-content, .form-control, .yt-search-result, .list-group-item {
     background-color: #f5f3e5 !important;
 }
 
